@@ -1,52 +1,381 @@
 ﻿using System;
-/*
-namespace Object
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            Ball soccer = new Ball(17, "Black", "ABC company");
-            soccer.InformationOfTheBall();
-            Console.WriteLine("Press any key to exit");
-            Console.ReadLine();
-        }
-    }
-    public class Ball
-    {
-        public int Size { get; set; }
-        public string Color { get; set; }
-        public string Madeby { get; set; }
-        public Ball(int size, string color, string madeby)
-        {
-            Size = size;
-            Color = color;
-            Madeby = madeby;
-        }
-        public void InformationOfTheBall()
-        {
-            Console.WriteLine("Size: {0}cm Color: {1} Made by: {2}", Size, Color, Madeby);
-        }
-    }
-}*/
 using System.Windows.Input;
-namespace WindowsFormsApplication1
+class GFG
 {
-    public partial class Form1 : Form
+
+    public static void Main(string[] args)
     {
-        public Form1()
+        Console.Write("..." +
+            "\n (option A)" +
+            "\n (option B)");
+        if (Console.ReadKey().Key == ConsoleKey.A)
         {
-            InitializeComponent();
-        }
-        private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            if (e.KeyChar == (char)Keys.Enter)
+            Console.Write("\nYou Press 'A'" +
+                "\n ..." +
+                "\n (option A)" +
+                "\n (option B)");
+            if (Console.ReadKey().Key == ConsoleKey.A)
             {
-                MessageBox.Show("Enter key pressed");
+                Console.Write("\nYou Press 'A'" +
+                    "\n ..." +
+                    "\n (option A)" +
+                    "\n (option B)");
+                if (Console.ReadKey().Key == ConsoleKey.A)
+                {
+                    Console.Write("\nYou Press 'A'" +
+                        "\n ..." +
+                        "\n (option A)" +
+                        "\n (option B)");
+                    if (Console.ReadKey().Key == ConsoleKey.A)
+                    {
+                        Console.Write("\nYou Press 'A'" +
+                            "\n..." +
+                            "\n (option A)" +
+                            "\n (option B)");
+                        if (Console.ReadKey().Key == ConsoleKey.A)
+                        {
+                            Console.Write("\nYou Press 'A'" +
+                                "\n ...");
+                        }
+                        else
+                        {
+                            Console.Write("\nYou Press 'B'" +
+                                "\n ...");
+                        }
+                    }
+                    else
+                    {
+                        Console.Write("\nYou Press 'B'" +
+                            "\n..." +
+                            "\n (option A)" +
+                            "\n (option B)");
+                        if (Console.ReadKey().Key == ConsoleKey.A)
+                        {
+                            Console.Write("\nYou Press 'A'" +
+                                "\n ...");
+                        }
+                        else
+                        {
+                            Console.Write("\nYou Press 'B'" +
+                                "\n ...");
+                        }
+                    }
+                }
+                else
+                {
+                    Console.Write("\nYou Press 'B'" +
+                        "\n ..." +
+                        "\n (option A)" +
+                        "\n (option B)");
+                    if (Console.ReadKey().Key == ConsoleKey.A)
+                    {
+                        Console.Write("\nYou Press 'A'" +
+                            "\n..." +
+                            "\n (option A)" +
+                            "\n (option B)");
+                        if (Console.ReadKey().Key == ConsoleKey.A)
+                        {
+                            Console.Write("\nYou Press 'A'" +
+                                "\n ...");
+                        }
+                        else
+                        {
+                            Console.Write("\nYou Press 'B'" +
+                                "\n ...");
+                        }
+                    }
+                    else
+                    {
+                        Console.Write("\nYou Press 'B'" +
+                            "\n..." +
+                            "\n (option A)" +
+                            "\n (option B)");
+                        if (Console.ReadKey().Key == ConsoleKey.A)
+                        {
+                            Console.Write("\nYou Press 'A'" +
+                                "\n ...");
+                        }
+                        else
+                        {
+                            Console.Write("\nYou Press 'B'" +
+                                "\n ...");
+                        }
+                    }
+                }
             }
-            if (e.KeyChar == 13)
+            else
             {
-                MessageBox.Show("Enter key pressed");
+                Console.Write("\nYou Press 'A'" +
+                    "\n ..." +
+                    "\n (option A)" +
+                    "\n (option B)");
+                if (Console.ReadKey().Key == ConsoleKey.A)
+                {
+                    Console.Write("\nYou Press 'A'" +
+                        "\n ..." +
+                        "\n (option A)" +
+                        "\n (option B)");
+                    if (Console.ReadKey().Key == ConsoleKey.A)
+                    {
+                        Console.Write("\nYou Press 'A'" +
+                            "\n..." +
+                            "\n (option A)" +
+                            "\n (option B)");
+                        if (Console.ReadKey().Key == ConsoleKey.A)
+                        {
+                            Console.Write("\nYou Press 'A'" +
+                                "\n ...");
+                        }
+                        else
+                        {
+                            Console.Write("\nYou Press 'B'" +
+                                "\n ...");
+                        }
+                    }
+                    else
+                    {
+                        Console.Write("\nYou Press 'B'" +
+                            "\n..." +
+                            "\n (option A)" +
+                            "\n (option B)");
+                        if (Console.ReadKey().Key == ConsoleKey.A)
+                        {
+                            Console.Write("\nYou Press 'A'" +
+                                "\n ...");
+                        }
+                        else
+                        {
+                            Console.Write("\nYou Press 'B'" +
+                                "\n ...");
+                        }
+                    }
+                }
+                else
+                {
+                    Console.Write("\nYou Press 'B'" +
+                        "\n ..." +
+                        "\n (option A)" +
+                        "\n (option B)");
+                    if (Console.ReadKey().Key == ConsoleKey.A)
+                    {
+                        Console.Write("\nYou Press 'A'" +
+                            "\n..." +
+                            "\n (option A)" +
+                            "\n (option B)");
+                        if (Console.ReadKey().Key == ConsoleKey.A)
+                        {
+                            Console.Write("\nYou Press 'A'" +
+                                "\n ...");
+                        }
+                        else
+                        {
+                            Console.Write("\nYou Press 'B'" +
+                                "\n ...");
+                        }
+                    }
+                    else
+                    {
+                        Console.Write("\nYou Press 'B'" +
+                            "\n..." +
+                            "\n (option A)" +
+                            "\n (option B)");
+                        if (Console.ReadKey().Key == ConsoleKey.A)
+                        {
+                            Console.Write("\nYou Press 'A'" +
+                                "\n ...");
+                        }
+                        else
+                        {
+                            Console.Write("\nYou Press 'B'" +
+                                "\n ...");
+                        }
+                    }
+                }
+            }
+        }
+        else
+        {
+            Console.Write("\nYou Press 'A'" +
+                "\n ..." +
+                "\n (option A)" +
+                "\n (option B)");
+            if (Console.ReadKey().Key == ConsoleKey.A)
+            {
+                Console.Write("\nYou Press 'A'" +
+                    "\n ..." +
+                    "\n (option A)" +
+                    "\n (option B)");
+                if (Console.ReadKey().Key == ConsoleKey.A)
+                {
+                    Console.Write("\nYou Press 'A'" +
+                        "\n ..." +
+                        "\n (option A)" +
+                        "\n (option B)");
+                    if (Console.ReadKey().Key == ConsoleKey.A)
+                    {
+                        Console.Write("\nYou Press 'A'" +
+                            "\n..." +
+                            "\n (option A)" +
+                            "\n (option B)");
+                        if (Console.ReadKey().Key == ConsoleKey.A)
+                        {
+                            Console.Write("\nYou Press 'A'" +
+                                "\n ...");
+                        }
+                        else
+                        {
+                            Console.Write("\nYou Press 'B'" +
+                                "\n ...");
+                        }
+                    }
+                    else
+                    {
+                        Console.Write("\nYou Press 'B'" +
+                            "\n..." +
+                            "\n (option A)" +
+                            "\n (option B)");
+                        if (Console.ReadKey().Key == ConsoleKey.A)
+                        {
+                            Console.Write("\nYou Press 'A'" +
+                                "\n ...");
+                        }
+                        else
+                        {
+                            Console.Write("\nYou Press 'B'" +
+                                "\n ...");
+                        }
+                    }
+                }
+                else
+                {
+                    Console.Write("\nYou Press 'B'" +
+                        "\n ..." +
+                        "\n (option A)" +
+                        "\n (option B)");
+                    if (Console.ReadKey().Key == ConsoleKey.A)
+                    {
+                        Console.Write("\nYou Press 'A'" +
+                            "\n..." +
+                            "\n (option A)" +
+                            "\n (option B)");
+                        if (Console.ReadKey().Key == ConsoleKey.A)
+                        {
+                            Console.Write("\nYou Press 'A'" +
+                                "\n ...");
+                        }
+                        else
+                        {
+                            Console.Write("\nYou Press 'B'" +
+                                "\n ...");
+                        }
+                    }
+                    else
+                    {
+                        Console.Write("\nYou Press 'B'" +
+                            "\n..." +
+                            "\n (option A)" +
+                            "\n (option B)");
+                        if (Console.ReadKey().Key == ConsoleKey.A)
+                        {
+                            Console.Write("\nYou Press 'A'" +
+                                "\n ...");
+                        }
+                        else
+                        {
+                            Console.Write("\nYou Press 'B'" +
+                                "\n ...");
+                        }
+                    }
+                }
+            }
+            else
+            {
+                Console.Write("\nYou Press 'A'" +
+                    "\n ..." +
+                    "\n (option A)" +
+                    "\n (option B)");
+                if (Console.ReadKey().Key == ConsoleKey.A)
+                {
+                    Console.Write("\nYou Press 'A'" +
+                        "\n ..." +
+                        "\n (option A)" +
+                        "\n (option B)");
+                    if (Console.ReadKey().Key == ConsoleKey.A)
+                    {
+                        Console.Write("\nYou Press 'A'" +
+                            "\n..." +
+                            "\n (option A)" +
+                            "\n (option B)");
+                        if (Console.ReadKey().Key == ConsoleKey.A)
+                        {
+                            Console.Write("\nYou Press 'A'" +
+                                "\n ...");
+                        }
+                        else
+                        {
+                            Console.Write("\nYou Press 'B'" +
+                                "\n ...");
+                        }
+                    }
+                    else
+                    {
+                        Console.Write("\nYou Press 'B'" +
+                            "\n..." +
+                            "\n (option A)" +
+                            "\n (option B)");
+                        if (Console.ReadKey().Key == ConsoleKey.A)
+                        {
+                            Console.Write("\nYou Press 'A'" +
+                                "\n ...");
+                        }
+                        else
+                        {
+                            Console.Write("\nYou Press 'B'" +
+                                "\n ...");
+                        }
+                    }
+                }
+                else
+                {
+                    Console.Write("\nYou Press 'B'" +
+                        "\n ..." +
+                        "\n (option A)" +
+                        "\n (option B)");
+                    if (Console.ReadKey().Key == ConsoleKey.A)
+                    {
+                        Console.Write("\nYou Press 'A'" +
+                            "\n..." +
+                            "\n (option A)" +
+                            "\n (option B)");
+                        if (Console.ReadKey().Key == ConsoleKey.A)
+                        {
+                            Console.Write("\nYou Press 'A'" +
+                                "\n ...");
+                        }
+                        else
+                        {
+                            Console.Write("\nYou Press 'B'" +
+                                "\n ...");
+                        }
+                    }
+                    else
+                    {
+                        Console.Write("\nYou Press 'B'" +
+                            "\n..." +
+                            "\n (option A)" +
+                            "\n (option B)");
+                        if (Console.ReadKey().Key == ConsoleKey.A)
+                        {
+                            Console.Write("\nYou Press 'A'" +
+                                "\n ...");
+                        }
+                        else
+                        {
+                            Console.Write("\nYou Press 'B'" +
+                                "\n ...");
+                        }
+                    }
+                }
             }
         }
     }
