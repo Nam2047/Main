@@ -6,7 +6,7 @@ class GFG
     public static void Main(string[] args)
     {
         Console.Write("..." +
-            "\n (option A)" +
+            "\n (option B)" +
             "\n (option B)");
         if (Console.ReadKey().Key == ConsoleKey.A)
         {
